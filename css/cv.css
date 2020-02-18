@@ -1,0 +1,491 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Bazar', serif, sans-serif;
+}
+
+@font-face {
+    font-family: 'Bazar', serif, sans-serif;
+    src: url('../font/Bazar.ttf');
+}
+
+.center{
+    text-align: center !important; 
+    text-shadow: 2px 0px 1px RGB(53, 66, 69);
+}
+
+a:hover{
+    border-bottom: 3px solid RGB(242, 233, 220);
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: RGB(242, 233, 220);
+}
+
+.piedpage{
+    font-family: 'Gudea', serif, sans-serif;
+    font-size: 14px;
+    color: RGB(53, 66, 69);
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
+
+
+/*------------------------------Header------------------------------*/
+
+
+header{
+    background-color: RGB(119, 187, 186);
+    height: 75px;
+    box-shadow: 0px 1px 9px RGB(98, 131, 133);
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10;
+}
+
+header li{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: RGB(242, 233, 220);
+    background-color: RGB(119, 187, 186);
+    list-style-type: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-top: 25px;
+    margin-bottom: 17px;
+    float: inherit;
+    text-align: center;
+}
+
+
+/*------------------------------Logo haut de page (nom prénom)------------------------------*/
+
+
+header img {
+    width: 140px;
+    height: auto;
+    margin-top: -64px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-content: center;
+}
+
+
+/*------------------------------Entête de toutes les pages------------------------------*/
+
+.entete p{
+    font-family: 'Gudea', serif, sans-serif;
+    text-align: center;
+    color: RGB(53, 66, 69);
+    margin-top: 40px;
+    text-shadow: 1px 0px 1px RGB(53, 66, 69);
+}
+
+.entete h1{
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-size: 64px;
+    color: RGB(53, 66, 69);
+    text-shadow:  2px 2px 0px RGB(242, 233, 220), 3px 3px 2px black;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+/*------------------------------Première page--------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+
+#premierepage{
+    background-color: RGB(119, 180, 181);
+}
+
+#premierepage .entete h1{
+    margin-top: 0px;
+    padding-top: 175px;
+}
+
+#premierepage section article img{
+
+    width: 920px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-content: center;
+}
+
+#premierepage section{
+    color: RGB(228, 221, 205);
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+}
+
+#premierepage section h2{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+#premierepage section p{
+    font-size: 13px;
+    margin-top: 10px;
+    padding-bottom: 35px;
+}
+
+.piedpage1{
+    font-family: 'Bazar', serif, sans-serif;
+    font-size: 14px;
+    color: RGB(228, 221, 205);
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px
+}
+
+
+
+/*---------------------------------------------------------------------------------*/
+/*------------------------------Deuxième page--------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+
+#secondepage{
+    background-color: RGB(228, 221, 205);
+}
+
+#secondepage .entete h1{
+    padding-top: 70px;
+    margin-top: 0px;
+}
+
+#secondepage section{
+    width: 1200px;
+    margin: auto;
+    padding-top: 40px;
+    color: RGB(53, 66, 69);
+}
+
+#secondepage section article {
+    height: 500px;
+    overflow: hidden;
+    width: 25%;
+    display: table-cell;
+    padding: 0 20px;
+}
+
+#secondepage section p{
+    font-family: 'Gudea', sans-serif, serif;
+    padding: 0 10px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+#secondepage section h2{
+    font-family: 'Bazar', sans-serif, serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#secondepage section h5{
+    font-family: 'Bazar', sans-serif, serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#secondepage section article img{
+    width: 160px;
+    margin: auto;
+    display: flex;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------Troisième page--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+
+#troisiemepage{
+    background-color: RGB(224, 135, 101);
+}
+
+#troisiemepage .entete h1{
+    padding-top: 70px;
+    margin-top: 0px;
+}
+
+#filtre{
+    font-family: 'Bazar', sans-serif, serif;
+    color: RGB(53, 66, 69);
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 13px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+#troisiemepage nav{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+#troisiemepage nav ul li{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 13px;
+    font-family: 'Odibee Sans', sans-serif, serif;
+    display: inline;
+    margin-left: 10px;
+    color: RGB(53, 66, 69);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    background-color: white;
+    border: 2px solid white;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+#troisiemepage section{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+#troisiemepage section article{
+    width: 24%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 40px;
+    margin-right: 5px;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+#troisiemepage section article .icone{
+    position: absolute;
+    width: 30px;
+    margin-top: 170px;
+    margin-left: -155px;
+    background-color: white;
+    z-index: 9;
+}
+/*----Div qui met le rond derriere l'icone-----*/
+
+#troisiemepage section article .div_icone{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -29px;
+    margin-left: 115px;
+    background-color: white;
+    z-index: 8;
+    border-radius: 30px;
+}
+
+/*Debug des icones qui ne se mettent pas bien*/
+
+#troisiemepage section article .debug_icone{
+    margin-top: -43px;
+}
+
+/*---------------Placement correct des articles en 4x2-------------------------*/
+
+#troisiemepage section article img{
+    width: 280px;
+    border: 4px solid white;
+/*    border-bottom: 8px solid white;*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+#troisiemepage section article p{
+    width: 280px;
+    font-family: 'Odibee Sans', sans-serif, serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    border-top: 7px solid white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    position: sticky;
+    bottom: 20px;
+    z-index: 1;
+}
+/*----------------------------------------------------------------------------------*/
+/*------------------------------Quatrième page--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+#quatriemepage{
+    background-color: RGB(228, 221, 205);
+}
+
+#quatriemepage .entete h1{
+    padding-top: 70px;
+    margin-top: 0px;
+}
+
+#quatriemepage section article{
+    margin-top: 60px;
+    display: inline-block;
+    width: 1300px;
+}
+
+#quatriemepage section article img{
+    width: 400px;
+    height: auto;
+    float: left;
+    margin-left: 140px;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#quatriemepage section article h2{
+    font-family: 'Gudea', serif, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+} 
+
+#quatriemepage section article h3{
+    font-family: 'Gudea', serif, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+} 
+
+#quatriemepage section article p{
+    font-family: 'Gudea', serif, sans-serif;
+    font-size: 13px;
+} 
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------Cinquieme page--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*couleur grise  	R: 78 G: 82 B: 91*/
+
+#cinquiemepage{
+    background-color: RGB(78, 82, 91);
+}
+
+#cinquiemepage .entete h1{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-size: 64px;
+    color: RGB(228, 221, 205);
+    text-shadow:  2px 2px 0px RGB(78, 82, 91), 3px 3px 0px RGB(228, 221, 205);
+}
+
+#cinquiemepage .entete p{
+    font-family: 'Gudea', serif, sans-serif;
+    text-align: center;
+    color: RGB(228, 221, 205);
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#cinquiemepage form{
+    width: 600px;
+    margin: auto;
+    display: grid;
+    padding-top: 40px;
+}
+
+input[type="text"] ,input[type="email"]{
+    width: 600px;
+    height: 30px;
+    margin-top: 5px;
+    color: RGB(155, 154, 152);
+    font-family: 'Gudea', serif, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    
+}
+
+textarea[name="message"]{
+    width: 600px;
+    height: 150px;
+    margin-top: 5px;
+    color: RGB(155, 154, 152);
+    font-family: 'Gudea', serif, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-top: 8px;
+    resize: none;
+}
+
+#formulaire{
+    font-family: 'Gudea', serif, sans-serif;
+    color: RGB(78, 82, 91);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 130px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#pied_de_page_5{
+    font-family: 'Bazar', serif, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: RGB(228, 221, 205);
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#pied_de_page_5 img{
+    text-align: center;
+    height: 100px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: RGB(86, 91, 97);
+    height: 25px;
+}
+
+footer p{
+    color: RGB(228, 221, 205);
+    font-family: 'Bazar', serif, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
